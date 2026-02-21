@@ -1,0 +1,28 @@
+# Jupyter
+.ipynb_checkpoints/
+.Trash-0/
+
+# OpenMC outputs
+statepoint.*.h5
+summary.h5
+tracks.h5
+particle_*.h5
+tallies.out
+*.h5
+
+# Runs/output folders
+runs/
+results/
+
+# Generated inputs (we do NOT commit XML)
+model_sfr/inputs/*.xml
+*.xml
+
+# Logs
+slurm-*.out
+*.log
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
