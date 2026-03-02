@@ -26,3 +26,25 @@ slurm-*.out
 .vscode/
 .DS_Store
 Thumbs.db
+
+# cat > .gitignore << 'EOF'
+# .ipynb_checkpoints/
+# .Trash-0/
+
+# # generated OpenMC inputs
+# *.xml
+
+# # OpenMC outputs
+# *.h5
+# statepoint.*.h5
+# summary.h5
+# particle_*.h5
+# tracks.h5
+# tallies.out
+
+# runs/
+# results/
+# .vscode/
+# .DS_Store
+# Thumbs.db
+# EOF
